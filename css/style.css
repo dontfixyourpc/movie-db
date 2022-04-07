@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+
+html, body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #B7B4C2;
+}
+.header{
+    position: static;
+    margin: 0;
+    padding: 5px 10px;
+    height: 10vh;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    
+}
+
+ul li{
+    position: relative;
+    left: 35vw;
+    float:left;
+    position: relative;
+    padding: 5px 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+#search-bar{
+    margin-right: 5vw;
+    position: relative; 
+    float: right;
+    padding: 5px 10px;
+    background-color: rgb(43, 43, 43);
+    border-style: none;
+    border-bottom: solid 2px white;
+    color: white;
+}
+#search-bar:focus {
+    outline: none;
+}
+h1{
+    float:left;
+    margin-left: 3vw;
+    font-family: 'Grape Nuts', cursive;
+}
+
+img{
+    float: left;
+    margin-left: 1vw;
+    margin-top: 4vh;
+    height: 30px;
+}
+
+
+.content-grid{
+    margin-right: 5vw;
+    display: grid;
+    gap: 5vw;
+    grid-template-columns: 25vw 25vw 25vw;
+    grid-template-rows: 25vh 25vh 25vh 25vh;
+    
+}
+
+#card-al{
+    display:table;
+    padding: 10px 20px;
+    color: white;
+    box-sizing: content-box;  
+    border-radius: 5px;
+    margin: 2vw;
+    box-shadow: 2px 2px 10px 0 rgb(43, 43, 43);
+}
+
+button{
+    background-color: rgb(59, 170, 3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.card_1{
+    background-image: url('../pictures/starttrek.png');
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.card_2{
+    background-image: url('../pictures/starwars.png');
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.card_3{
+    background-image: url('../pictures/reservoir_dogs.png');
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.card_4{
+    background-image: url('../pictures/house-of-wax-movie-poster.png');
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.card_5{
+    background-image: url('../pictures/ff6.png');
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.card_6{
+    background-image: url('../pictures/tt2.png');
+    background-size: cover;
+    background-position: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+footer{
+    position: static;
+    height: 10vh; 
+    background-color: rgb(43, 43, 43);
+    margin-top: 5vh;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background-color: rgb(43, 43, 43);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
